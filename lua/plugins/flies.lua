@@ -5,6 +5,7 @@ return {
 			"nvim-lua/plenary.nvim",
 			{
 				"phaazon/hop.nvim",
+        commit = "1a1ecea",
 				module = "hop",
 				opts = {
 					jump_on_sole_occurrence = true,
