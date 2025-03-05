@@ -69,7 +69,6 @@ function M.setup()
 			}),
 		}),
 		h = require("config.binder.edit"),
-
 		n = modes({
 			nx = b({ "req", "flies.actions.move_again", "next" }),
 		}),

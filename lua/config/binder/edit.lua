@@ -1,4 +1,3 @@
-local directions = require("my.parameters").directions
 local binder = require("binder")
 local keys = binder.keys
 local b = binder.b

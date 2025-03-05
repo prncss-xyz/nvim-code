@@ -5,7 +5,7 @@ return {
 			"nvim-lua/plenary.nvim",
 			{
 				"phaazon/hop.nvim",
-        commit = "1a1ecea",
+				commit = "1a1ecea",
 				module = "hop",
 				opts = {
 					jump_on_sole_occurrence = true,
@@ -19,21 +19,23 @@ return {
 				hlslens = false,
 				op = {
 					wrap = {
-						b = {
-							left = "(",
-							right = ")",
-						},
-						q = {
-							left = '"',
-							right = '"',
-						},
-						v = {
-							left = "_",
-							right = "_",
-						},
-						w = {
-							left = " ",
-							right = " ",
+						chars = {
+							b = {
+								left = "(",
+								right = ")",
+							},
+							q = {
+								left = '"',
+								right = '"',
+							},
+							v = {
+								left = "_",
+								right = "_",
+							},
+							w = {
+								left = " ",
+								right = " ",
+							},
 						},
 					},
 				},
