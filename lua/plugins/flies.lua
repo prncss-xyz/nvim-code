@@ -24,9 +24,21 @@ return {
 								left = "(",
 								right = ")",
 							},
+							B = {
+								left = "{",
+								right = "}",
+							},
 							q = {
 								left = '"',
 								right = '"',
+							},
+							Q = {
+								left = "`",
+								right = "`",
+							},
+							t = {
+								left = "<>",
+								right = "<>",
 							},
 							v = {
 								left = "_",
