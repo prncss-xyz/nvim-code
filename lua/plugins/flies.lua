@@ -103,7 +103,7 @@ return {
 						lonely_wiseness_inner = "v",
 						lonely_wiseness_outer = "V",
 					}),
-					--[[ ["é"] = require("flies.flies.search"), ]]
+					["é"] = require("flies.flies.search"),
 					-- ['<tab>']
 				},
 			})
