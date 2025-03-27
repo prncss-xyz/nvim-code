@@ -21,6 +21,31 @@ return keys({
 			}),
 		}),
 	}),
+	c = modes({
+		n = b({
+			"req",
+			"flies.operations.act",
+			"exec",
+			{ around = "never" },
+			false,
+			"c",
+		}),
+		x = b({ "c" }),
+	}),
+	d = modes({
+		n = b({
+			"req",
+			"flies.operations.act",
+			"exec",
+			{
+				domain = "outer",
+				around = "always",
+			},
+			false,
+			"d",
+		}),
+		x = b({ "d" }),
+	}),
 	e = b({
 		desc = "swap",
 		function()
@@ -36,6 +61,19 @@ return keys({
 		desc = "reindent",
 		"=",
 		modes = "nx",
+	}),
+	v = keys({
+		desc = "paste",
+		prev = b({
+			"keys",
+			"P",
+			modes = "nx",
+		}),
+		next = b({
+			"keys",
+			"p",
+			modes = "nx",
+		}),
 	}),
 	w = b({
 		desc = "open-close",
